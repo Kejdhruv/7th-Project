@@ -77,3 +77,9 @@ Data.forEach((Element) => {
     })
 })
 
+let Item = document.querySelector('.Item');
+document.querySelectorAll('.items').forEach((item) => {
+    item.addEventListener('click', function () {
+        redirectTo('Collection.html?id=' + this.id);
+    });
+});

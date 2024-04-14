@@ -4,7 +4,9 @@ let Data = [{
     "year": "1st Sem",
     "author": "R.K Das",
     "img": "https://d3i3lzopayriz.cloudfront.net/books/0_front_cover_1660716982.jpg",
-    "descrip": " Engineering Mathematics provides a comprehensive overview of mathematical concepts essential for engineering students. This textbook covers topics such as calculus, differential equations, linear algebra, and complex analysis, presenting them in a clear and accessible manner. With numerous examples and exercises, students can develop a solid understanding of mathematical principles and their practical applications in engineering. Written by renowned author R.K Das, this book is an indispensable resource for engineering students seeking to master the mathematical foundations of their field."
+    "descrip": " Engineering Mathematics provides a comprehensive overview of mathematical concepts essential for engineering students. This textbook covers topics such as calculus, differential equations, linear algebra, and complex analysis, presenting them in a clear and accessible manner. With numerous examples and exercises, students can develop a solid understanding of mathematical principles and their practical applications in engineering. Written by renowned author R.K Das, this book is an indispensable resource for engineering students seeking to master the mathematical foundations of their field." ,
+    "url" : "https://menso88.weebly.com/uploads/1/7/5/8/17586891/textbook_og_engineering_matematics.pdf" 
+
 },
 {
     "_id": "ObjectId('Book2')",
@@ -12,7 +14,8 @@ let Data = [{
     "year": "2nd Sem",
     "author": "V.K Jain",
     "img": " https://m.media-amazon.com/images/I/51fybioFl+L.jpg",
-    "descrip": "Engineering Physics offers a fundamental understanding of physical principles crucial for engineering applications. This comprehensive textbook covers topics including mechanics, thermodynamics, electromagnetism, and quantum mechanics, presenting them in a coherent and logical manner. With practical examples and real-world applications, students can grasp complex concepts and apply them to engineering problems. Authored by esteemed physicist V.K Jain, this book serves as an indispensable resource for engineering students aiming to build a strong foundation in physics for their future careers."
+    "descrip": "Engineering Physics offers a fundamental understanding of physical principles crucial for engineering applications. This comprehensive textbook covers topics including mechanics, thermodynamics, electromagnetism, and quantum mechanics, presenting them in a coherent and logical manner. With practical examples and real-world applications, students can grasp complex concepts and apply them to engineering problems. Authored by esteemed physicist V.K Jain, this book serves as an indispensable resource for engineering students aiming to build a strong foundation in physics for their future careers." ,
+    "url" : "https://patrimoniohistorico.prefeitura.sp.gov.br/m/pdf/upload?KE=engineering~mathematics~1~uptu.pdf"
 },
 {
     "_id": "ObjectId('Book3')",
@@ -20,7 +23,8 @@ let Data = [{
     "year": "1st Sem",
     "author": "R.K Ghosh",
     "img": "https://m.media-amazon.com/images/I/61GOCXVfisL._AC_UF1000,1000_QL80_.jpg",
-    "descrip": "Book overview. This book has been divided into seventeen chapters covering all the disciplines of engineering Chemistry such as Inorganic, Organic, synthetic, physical, applied, industrial, spectroscopic and Environmental Chemistry."
+    "descrip": "Book overview. This book has been divided into seventeen chapters covering all the disciplines of engineering Chemistry such as Inorganic, Organic, synthetic, physical, applied, industrial, spectroscopic and Environmental Chemistry." ,
+    "url" :  "https://bvrithyderabad.edu.in/wp-content/uploads/2023/07/Engineering-Chemistry.pdf"  
 },
 {
     "_id": "ObjectId('Book4')",
