@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: #181818;
+    color: white;
+}
+
+.Container2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Img {
+    border: 0.5px solid black;
+    width: 30vw;
+    height: 80vh;
+    margin-top: 10vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+}
+
+.Info {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    height: 80vh;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 10vw;
+    margin-top: 8vh;
+
+}
+
+.Heading {
+
+    width: 30vw;
+    height: 20vh;
+    font-size: 40px;
+    font-family: monospace;
+    text-align: center;
+    padding-top: 4vh;
+
+}
+
+.Conetnt {
+
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    width: 40vw;
+    justify-content: space-around
+}
+
+.Description {
+
+    height: auto;
+    width: 40vw;
+    font-size: medium;
+    text-align: justify;
+}
+
+.Author {
+
+    padding-top: 2vh;
+    height: 2vh;
+    font-size: large;
+    font-weight: 600;
+
+}
+
+.Year {
+
+    padding-top: 2vh;
+    height: 4vh;
+    font-size: large;
+    font-weight: 600;
+}
+
+.Download {
+    background-color: grey;
+    color: white;
+    border: transparent;
+    padding: 2%;
+    font-size: large;
+    font-weight: 400;
+    font-family: monospace;
+    margin-left: 70%;
+    border-radius: 8%;
+}
+
+.Download:active {
+    background-color: #535C91;
+    color: black;
+}

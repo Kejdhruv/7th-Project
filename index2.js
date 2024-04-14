@@ -77,9 +77,3 @@ Data.forEach((Element) => {
     })
 })
 
-let Item = document.querySelector('.Item');
-document.querySelectorAll('.items').forEach((item) => {
-    item.addEventListener('click', function () {
-        redirectTo('YEAR1.html?id=' + this.id);
-    });
-});
