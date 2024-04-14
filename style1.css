@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #181818;
+    color: white;
+}
+
+.Container1 {
+    display: flex;
+    background-color: #0f0f0f;
+}
+
+.List {
+    display: flex;
+    margin-top: 4%;
+    background-color: #0f0f0f;
+}
+
+.Navbar {
+    background-color: #0f0f0f;
+    height: 8vh;
+}
+
+#Title {
+    float: left;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 160%;
+    background-color: #0f0f0f;
+
+}
+
+.Bar {
+    margin-inline: 15%;
+    float: right;
+    list-style-type: none;
+    background-color: #0f0f0f;
+}
+
+button {
+    margin-top: 5%;
+    width: 5vw;
+    height: 20px;
+    float: right;
+    background-color: transparent;
+    border-color: transparent;
+    font-family: monospace;
+}
+
+.Container2 {
+    display: flex;
+    margin-top: 2.5%;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 80vh;
+}
+
+.Corousel { 
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    height: 60vh;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.Head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    width: 20vw;
+}
+
+.Name {
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.slider {
+    display: flex;
+    margin-top: 2.5%;
+    overflow: hidden;
+    justify-content: center;
+
+
+}
+
+.slides {
+    margin-top: 5vh;
+    height: 60vh;
+    text-align: center;
+
+}
+
+.slider img {
+    left: 10%;
+    right: 10%;
+    width: 40vw;
+    height: 40vh;
+    display: none;
+
+}
+
+img.displaySlide {
+    display: block;
+
+}
+
+.slider button {
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    padding: 10px 15px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.prev {
+    left: 10%;
+}
+
+.next {
+    left: 54.3%;
+}
+
+#Sign-in {
+    background-color: #535C91;
+    color: whitesmoke;
+    padding-bottom: 1vh;
+}
+
+#Login {
+    background-color: #535C91;
+}
+
+#Login:active {
+    background-color: #181818;
+    color: white;
+}
