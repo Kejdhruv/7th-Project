@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #181818;
+    ;
+}
+
+.Container1 {
+    height: 100vh;
+    scrollbar-width: none;
+}
+
+.Sidebar {
+    border: 2px solid rgba(9, 9, 55, 0.1);
+    width: 20vw;
+    background-color: #0F0F0F;
+    box-shadow: inset;
+    height: 100%;
+    position: fixed;
+    margin-right: 10vw;
+    display: inline;
+}
+
+.Item {
+    margin: 20%;
+    text-decoration: none;
+    background-color: #0F0F0F;
+}
+
+.items {
+    margin-top: 20%;
+    list-style-type: none;
+    font-family: monospace;
+    font-size: large;
+    text-decoration: none;
+    color: white;
+    background-color: #0F0F0F;
+}
+
+.items:active {
+    color: #535C91;
+}
+
+#Dashboard {
+    font-size: 30px;
+    margin-top: 10%;
+    margin-left: 25%;
+    font-weight: bold;
+    background-color: #0F0F0F;
+    color: white;
+}
+
+.ProductCard {
+    float: right;
+    margin-right: 14vw;
+    display: grid;
+    grid-template-columns: repeat(2, 25vw);
+    /* Two columns each with 25vw width */
+    grid-template-rows: repeat(auto-fill, auto-fill);
+    gap: 20px;
+    /* Gap between grid items */
+    position: relative;
+    top: 20vh;
+
+
+
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0F0F0F;
+    border-radius: 4% ;
+
+}
+
+#Head {
+    margin-left: 20.2vw;
+    display: inline-block;
+    z-index: 1;
+    padding-bottom: 4vh;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 4vh;
+    font-weight: bolder;
+    position: fixed;
+    background-color: #121212;
+    height: 6vh;
+    width: 80vw;
+    text-align: center;
+    color: white;
+}
+
+.pimage {
+    margin-top: 2vh;
+    width: 20vw;
+    height: 60vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.Name {
+    width: 20vw;
+    height: 4vh;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 2vh;
+    padding-top: 3vh;
+    color: white;
+    background-color: #0F0F0F;
+}
+
+.product:active {
+    background-color: #535C91;
+}
+
+.Name:active {
+    background-color: #535C91;
+    color: black;
+}
