@@ -1,0 +1,102 @@
+*{
+    padding: 0 ;
+    margin: 0 ;
+    color: white;
+    background-color: #181818;
+
+}
+.Box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh ;
+}
+.Form{
+    height: 70vh ;
+    width: 30vw ; 
+    background-color: #0f0f0f;
+    border-radius: 12% ;
+    align-items: center;
+    border: 1px solid  #535C91 ;
+}
+.head{
+ margin-left: 40% ;
+ margin-top: 2vh ;
+ width: fit-content; 
+ background-color: #0f0f0f;
+}
+.input-box{
+    margin-top:  15% ; 
+   margin-bottom: 2%  ;
+    margin-left: 25% ;
+   border-bottom: 2px solid white ;
+   width: 15vw  ;
+   background-color: #0f0f0f ; 
+   
+}
+#password label {
+    position: absolute;
+    font-size: 20px ;
+    background-color: #0f0f0f;
+    top: 43% ;
+    left: 42.6% ;
+}
+#email label{
+    position: absolute;
+    left: 42.6% ;
+    background-color: #0f0f0f;
+    font-size: 20px ;
+    top: 28% ;
+}
+input{
+    background-color: #0f0f0f;
+    width: 15vw;
+    border: transparent;
+    height: 5vh ;
+}
+h1{
+    background-color: #0f0f0f;
+}
+.btn1{
+    font-size: 20px ;
+position: absolute;
+width: 6vw ;
+top: 57%  ;
+left: 42.5%  ;
+background-color: #535C91;
+border: transparent;
+padding-top: 0.2% ;
+padding-bottom: 0.2% ;
+
+
+}
+.btn2{
+    font-size: 20px ;
+position: absolute;
+width: 6vw ;
+top: 57%  ;
+left: 51.5%  ;
+background-color: #535C91;
+border: transparent;
+padding-top: 0.2% ;
+padding-bottom: 0.2% ;
+}
+.btn1:active{
+    color: #535C91;
+    border: 1px solid #535C91;
+    background-color: #0f0f0f;
+}
+.btn2:active{
+    color: #535C91;
+    border: 1px solid #535C91;
+    background-color: #0f0f0f;
+}
+#btxn{
+    margin-top: 20%  ;
+    display: flex;
+}
+.Logo{
+    position: absolute;
+    top :  5% ; 
+    left: 90% ;
+}
