@@ -40,7 +40,8 @@ let Data = [{
     "year": "3rd Sem",
     "author": "D.B Bhatia",
     "img": "https://m.media-amazon.com/images/I/71kBRLo8ZtL._AC_UF1000,1000_QL80_.jpg",
-    "descrip": "Data Structures and Algorithms is an indispensable resource for computer science students and professionals alike. This comprehensive textbook covers fundamental concepts such as arrays, linked lists, stacks, queues, trees, graphs, sorting, searching, and hashing, providing a solid foundation in data organization and manipulation. With clear explanations, pseudocode, and implementation examples in various programming languages, readers can grasp complex algorithms and their applications in solving real-world problems efficiently. Authored by renowned experts in the field, this book equips readers with the knowledge and skills necessary for designing and analyzing efficient algorithms, making it an essential reference for anyone working in the field of computer science and software engineering."
+    "descrip": "Data Structures and Algorithms is an indispensable resource for computer science students and professionals alike. This comprehensive textbook covers fundamental concepts such as arrays, linked lists, stacks, queues, trees, graphs, sorting, searching, and hashing, providing a solid foundation in data organization and manipulation. With clear explanations, pseudocode, and implementation examples in various programming languages, readers can grasp complex algorithms and their applications in solving real-world problems efficiently. Authored by renowned experts in the field, this book equips readers with the knowledge and skills necessary for designing and analyzing efficient algorithms, making it an essential reference for anyone working in the field of computer science and software engineering." ,
+    "url" : "https://www.mta.ca/~rrosebru/oldcourse/263114/Dsa.pdf" 
 },
 {
     "_id": "ObjectId('Book6')",

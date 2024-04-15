@@ -55,9 +55,10 @@ let Data = [{
 }
 
 
+
 ];
 
-
+export default Data ;
 Data.forEach((Element) => {
     var productCard = document.querySelector('.ProductCard');
     var product = document.createElement('div');
