@@ -3,9 +3,6 @@ function redirectTo(url) {
 }
 
 document.addEventListener('DOMContentLoaded', function () {
-    document.querySelector('.btn2').onclick = function () {
-        redirectTo('sign.html');
-    };
 
     document.querySelector('.btn1').onclick = function () {
         valid(); 
@@ -18,7 +15,7 @@ function valid() {
     
     if (email === "23122@iiitu.ac.in" && pswd === "12345") {
         alert("Email: " + email + "\nPassword: " + pswd);
-        redirectTo('mv.html');
+        redirectTo('admin.html');
     } else {
         alert("Invalid email or password. Please try again.");
     }

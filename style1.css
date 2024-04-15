@@ -8,41 +8,44 @@
 .Container1 {
     display: flex;
     background-color: #0f0f0f;
+    height: 8vh ;
 }
 
 .List {
     display: flex;
-    margin-top: 4%;
+    margin-top: 1% ; 
     background-color: #0f0f0f;
+    margin-left: 2% ;
+
 }
 
-.Navbar {
-    background-color: #0f0f0f;
-    height: 8vh;
-}
+
 
 #Title {
-    float: left;
+    position: absolute ;
+    left: 90% ;
+    top: 2% ;
     font-size: 20px;
     text-decoration: none;
     font-weight: bold;
-    margin-right: 160%;
     background-color: #0f0f0f;
-
+    
 }
 
 .Bar {
-    margin-inline: 15%;
+    margin-left: 2% ;
     float: right;
     list-style-type: none;
     background-color: #0f0f0f;
 }
 
 button {
-    margin-top: 5%;
+    
+    margin-top: 0.2% ;
     width: 5vw;
     height: 20px;
     float: right;
+    left: 90%  ;
     background-color: transparent;
     border-color: transparent;
     font-family: monospace;
@@ -128,14 +131,11 @@ img.displaySlide {
     left: 54.3%;
 }
 
-#Sign-in {
-    background-color: #535C91;
-    color: whitesmoke;
-    padding-bottom: 1vh;
-}
+
 
 #Login {
     background-color: #535C91;
+    height: 3.5vh ;
 }
 
 #Login:active {

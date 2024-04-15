@@ -43,7 +43,8 @@ document.addEventListener('DOMContentLoaded', function () {
     document.querySelector('#Login').onclick = function () {
         redirectTo('login.html');
     };
-    document.querySelector('#Sign-in').onclick = function () {
-        redirectTo('sign.html');
+   
+    document.querySelector('#Admin').onclick = function () {
+        redirectTo('mv.html');
     };
 }); 
