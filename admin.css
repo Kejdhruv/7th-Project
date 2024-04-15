@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #181818;
+}
+
+.Box {
+    width: 80%;
+    max-width: 600px;
+    margin: 50px auto;
+    background: #0f0f0f;
+    padding: 20px;
+    border-radius: 8px;
+    
+    border: 1px solid  #535C91 ;
+}
+
+.Logo img {
+    display: block;
+    margin: 0 auto;
+}
+
+.Form {
+    margin-top: 30px;
+}
+
+.Form .head h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.input-box {
+    position: relative;
+    margin-bottom: 20px;
+    background-color: #0f0f0f;
+    color: white ;
+}
+
+.input-box input,
+.input-box textarea {
+    width: 95% ;     padding: 10px;
+    outline: none;
+    border: 1px solid #ccc ;
+    border-radius: 4px;
+    background: #0f0f0f; 
+    transition: all 0.3s ease;
+    color: white ;
+}
+
+.input-box input:focus,
+.input-box textarea:focus {
+    border-color: #535C91;
+    box-shadow: 0 0 5px rgba(83, 92, 145, 0.5);
+}
+
+.input-box label {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #999;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+
+.input-box input:focus + label,
+.input-box textarea:focus + label,
+.input-box input:valid + label,
+.input-box textarea:valid + label {
+    top: -12px;
+    left: 5px;
+    font-size: 12px;
+    color: #007bff;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #535C91 ; 
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
