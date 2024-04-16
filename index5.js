@@ -14,7 +14,7 @@ function valid() {
     var pswd = document.querySelector("#password1").value; 
     
     if (email === "23122@iiitu.ac.in" && pswd === "12345") {
-        alert("Email: " + email + "\nPassword: " + pswd);
+        alert("Welcome Admin");
         redirectTo('admin.html');
     } else {
         alert("Invalid email or password. Please try again.");

@@ -1,18 +1,19 @@
+
 document.addEventListener("DOMContentLoaded", function() {
-  let nameInput = document.querySelector(".Name1");
-  let emailInput = document.querySelector(".Email1");
-  let imgInput = document.querySelector(".Image1");
-  let urlInput = document.querySelector(".Pdf1");
-  let descripInput = document.querySelector(".Description");
-
+  let nameInput = document.querySelector("#Name1").value;
+  let emailInput = document.querySelector("#Email1").value;
+  let imgInput = document.querySelector("#Image1").value;
+  let urlInput = document.querySelector("#Pdf1").value;
+  let descripInput = document.querySelector("#Description").value;
+let Form = document.querySelector(".Form").value ; 
   function click() {
-      let name = nameInput.value;
-      let email = emailInput.value;
-      let img = imgInput.value;
-      let url = urlInput.value;
-      let descrip = descripInput.value;
+      let name = nameInput;
+      let email = emailInput;
+      let img = imgInput;
+      let url = urlInput;
+      let descrip = descripInput;
 
-      let id = "Book" + (Data.length + 1);
+      let id = "Book" ;  
 
       let book = {
           "id": id,
@@ -23,15 +24,16 @@ document.addEventListener("DOMContentLoaded", function() {
           "descrip": descrip
       };   
 
-      Data.push(book);
-      console.log(book); 
+      //Data.push(book);
+      //console.log(book); 
 
       
-      nameInput.value = "";
-      emailInput.value = "";
-      imgInput.value = "";
-      urlInput.value = "";
-      descripInput.value = "";
+      nameInput = "";
+      emailInput = "";
+      imgInput = "";
+      urlInput = "";
+      descripInput = "";
+ alert("Book added Successfully") ; 
   }
 
   document.querySelector(".btn").addEventListener("click", click);
