@@ -1,30 +1,42 @@
-import  Data from "./index2.js";
 document.addEventListener("DOMContentLoaded", function() {
-  let name = document.querySelector(".Name1").value;
-  let email = document.querySelector(".Email1").value;
-  let img = document.querySelector(".Image1").value;
-  let url = document.querySelector(".Pdf1").value;
-  let descrip = document.querySelector(".Description").value;
+  let nameInput = document.querySelector(".Name1");
+  let emailInput = document.querySelector(".Email1");
+  let imgInput = document.querySelector(".Image1");
+  let urlInput = document.querySelector(".Pdf1");
+  let descripInput = document.querySelector(".Description");
 
- 
-let data=Data ; 
-  let id = "Book" + (Data.length + 1);
+  function click() {
+      let name = nameInput.value;
+      let email = emailInput.value;
+      let img = imgInput.value;
+      let url = urlInput.value;
+      let descrip = descripInput.value;
 
-  
-  let book = {
-      "id": id,
-      "name": name,
-      "email": email,
-      "img": img,
-      "url": url,
-      "descrip": descrip
-  };   
+      let id = "Book" + (Data.length + 1);
 
-  console.log(book); 
+      let book = {
+          "id": id,
+          "name": name,
+          "email": email,
+          "img": img,
+          "url": url,
+          "descrip": descrip
+      };   
 
-  
-  data.push(book);
+      Data.push(book);
+      console.log(book); 
+
+      
+      nameInput.value = "";
+      emailInput.value = "";
+      imgInput.value = "";
+      urlInput.value = "";
+      descripInput.value = "";
+  }
+
+  document.querySelector(".btn").addEventListener("click", click);
 });
+
 
 
 
